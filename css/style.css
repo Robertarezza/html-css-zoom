@@ -17,12 +17,23 @@ img{
     flex-direction: column;
     
 }
+.barra-info{
+    position: absolute;
+    top:0;
+    right: 0;
+    color: white;
+    padding: 5px;
+    font-size: 0.7rem;
+    background: rgba(96, 89, 89, 0.5);
+
+}
 .cont-main{
     width: 100%;
     height:calc(100% - 120px);
     background-color: black;
     padding: 40px;
     overflow: auto;
+    position: relative; 
 }
 
 .cont-img{
@@ -61,5 +72,4 @@ img{
     background-color: brown;
     border: 4px solid black;
     
-
 } 
